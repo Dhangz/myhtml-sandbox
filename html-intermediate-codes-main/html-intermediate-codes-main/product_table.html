@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product Table</title>
+    <style>
+      * {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      caption {
+        border: 1px solid;
+        border-radius: 25px;
+        padding: 10px;
+        font-weight: 700;
+        background-color: gray;
+      }
+
+      table,
+      th,
+      td {
+        border-bottom: 2px solid gray;
+        border-collapse: collapse;
+        width: 700px;
+      }
+
+      th,
+      td {
+        padding: 10px 25px;
+        text-align: left;
+      }
+
+      tr:nth-child(even) {
+        background-color: rgba(183, 183, 183, 0.2);
+      }
+
+      td:last-child {
+        color: red;
+        font-size: small;
+        font-weight: 900;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Product Table
+      </caption>
+      <thead>
+        <tr>
+          <th>Product Name</th>
+          <th>Price</th>
+          <th>Availability</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Onion</td>
+          <td>125.00 kg</td>
+          <td>Available</td>
+        </tr>
+        <tr>
+          <td>Garlic</td>
+          <td>100.00 kg</td>
+          <td>Available</td>
+        </tr>
+        <tr>
+          <td>Ginger</td>
+          <td>70.00 kg</td>
+          <td>Available</td>
+        </tr>
+        <tr>
+          <td>Ground Pepper</td>
+          <td>200.00 kg</td>
+          <td>Out of Stock</td>
+        </tr>
+        <tr>
+          <td>Eggplants</td>
+          <td>150.00 kg</td>
+          <td>Available</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
